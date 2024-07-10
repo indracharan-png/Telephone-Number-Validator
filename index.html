@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Telephone number validator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        src="assets/DVS_logo_white_text.png"
+        alt="Company logo"
+        id="dvs-logo"
+      />
+      <h1>Telephone Number Validator</h1>
+    </header>
+    <main>
+      <div id="phone-components">
+        <div id="phone-camera"></div>
+        <div id="phone-screen">
+          <div id="input-div">
+            <label for="ph.no-label-input">Enter a Phone Number:</label>
+            <input type="text" id="ph.no-label-input" />
+          </div>
+          <div id="results"></div>
+        </div>
+        <div id="buttons-div">
+          <button id="check-btn" class="btn">Check</button>
+          <button id="clear-btn" class="btn">Clear</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

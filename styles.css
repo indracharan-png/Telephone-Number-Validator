@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #35374b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#dvs-logo {
+  width: 20%;
+  margin-bottom: 1.5em;
+}
+
+header {
+  text-align: center;
+  margin-top: 2.5em;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter";
+  font-weight: 800;
+  margin-bottom: 1.5em;
+}
+
+main {
+  background-color: #000;
+  padding: 1em;
+  width: 18%;
+  /* padding-top: 2.7em; */
+  padding-bottom: 1.7em;
+  border-radius: 10px;
+  min-width: 260px;
+}
+
+#phone-components {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#phone-camera {
+  background-color: #f6f5f5;
+  width: 5%;
+  height: 0.7em;
+  margin: 0 auto 1em;
+  border-radius: 50%;
+}
+
+#phone-screen {
+  background-color: #f6f5f5;
+  width: 100%;
+}
+
+#input-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label,
+input {
+  display: block;
+}
+
+label {
+  padding: 0.8em 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+input {
+  width: 80%;
+  height: 2.5em;
+  border: 1px #000 solid;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#results {
+  height: 16rem;
+  overflow: auto;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.results-p {
+  margin-top: 1em;
+}
+
+.invalid-p {
+  color: rgba(165, 81, 81, 0.867);
+}
+
+.valid-p {
+  color: rgba(84, 177, 84, 0.803);
+}
+
+#buttons-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 1em;
+  gap: 8%;
+}
+
+.btn {
+  cursor: pointer;
+  width: 40%;
+  font-size: 1em;
+  height: auto;
+  background-image: linear-gradient(#ffffff, #928d86);
+  border-color: #fff;
+  border-width: 3px;
+}
